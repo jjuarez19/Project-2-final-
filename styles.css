@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@800&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Karla:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Karla:ital,wght@1,500&family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Karla:ital,wght@1,500&family=Permanent+Marker&family=Yanone+Kaffeesatz&display=swap');
+
+.img-dog{
+    width: 150px;
+    float: right;
+    padding-right: 200px;
+    padding-top: 250px;
+}
+
+.img-rundog{
+    width: 200px;
+    float: right;
+    padding-top: 40px;
+    padding-right: 250px;
+
+}
+
+.img-chasedog{
+    width: 400px;
+    float: right;
+    padding-bottom: 100px;
+    padding-right: 420px;
+}
+.img-hugdog{
+    width: 150px;
+    float: left;
+    padding-left: 420px;
+    padding-top: 120px;
+}
+
+body{
+    animation-name: backGradient;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes backGradient {
+    from{
+        color: rgb(28, 169, 224)
+        } 50%{
+            background-color: skyblue;
+        } 100%{
+            background-color: rgb(45, 134, 163);
+        }
+}
+
+h1#headp1{
+    text-align: left;
+    font-family: 'Irish Grover', cursive;
+    color:brown;
+    font-size: 40pt;
+    margin: 10px;
+}
+h1#headp2{
+    font-family: 'Irish Grover', cursive;
+    color:brown;
+    font-size: 40pt;
+    margin: 10px;
+    text-align: right;
+}
+h1#headp3{
+    text-align: center;
+    font-family: 'Irish Grover', cursive;
+    color:brown;
+    font-size: 40pt;
+    margin: 30px;
+}
+h1#headp4{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(156, 0, 0);
+    font-size: 40pt;
+    margin: 20px;
+    text-decoration: underline;
+}
+h1#headp5{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(156, 0, 0);
+    font-size: 40pt;
+    margin: 20px;
+    text-decoration: underline;
+}
+h1#headp6{
+    text-align: left;
+    font-family: 'Irish Grover', cursive;
+    color:brown;
+    font-size: 40pt;
+    margin: 10px;
+}
+
+p#page1{
+    font-family: 'Karla', sans-serif;
+    color:rgb(80, 80, 80);
+    font-size: 23pt;
+    margin: 10px;
+}
+p#page2{
+    font-family: 'Karla', sans-serif;
+    text-align: right;
+    color: rgb(80, 80, 80);
+    font-size: 23pt;
+    margin: 30px;
+}
+p#page3{
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    color:rgb(80, 80, 80);
+    font-size: 25pt;
+    margin: 30px;
+}
+p#page4{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 35pt;
+    margin: 50px;
+}
+p#page5{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 35pt;
+    margin: 50px;
+}
+
+p#page6{
+    font-family: 'Karla', sans-serif;
+    color:rgb(80, 80, 80);
+    font-size: 23pt;
+    margin: 10px;
+}
+a {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color:gold;
+    background-color: backGradient;
+    text-decoration: underline;
+    text-align: left;
+    font-size: 35pt;
+    margin: 10px;
+}
+
+/* mouse over link */
+a:hover {
+    color:red;
+}
+   
